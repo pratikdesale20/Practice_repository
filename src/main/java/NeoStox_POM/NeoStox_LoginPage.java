@@ -36,4 +36,9 @@ public class NeoStox_LoginPage
 		LoginButton.click();
 		Reporter.log("Clicking on signIn button",true);
 	}
+	
+	
+	
+	
+
 }
