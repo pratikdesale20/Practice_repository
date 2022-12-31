@@ -27,16 +27,12 @@ public class Base1 {
 			 Reporter.log("Launching Browser",true);
 			 Thread.sleep(1000);
 		}
-		
-		
-		
+	
 		public static void closingBrowser(WebDriver driver) throws 
 		InterruptedException
 	{
 		Reporter.log("closing browser", true);
 		Thread.sleep(500);
 		driver.close();
-		
-		
        }
 }
